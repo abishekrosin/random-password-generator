@@ -1,8 +1,8 @@
 import random
 print("welcome to random password generattor")
 randomchars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%&"
-nbrofpwds = int(input("enter the no of password to be generated:")
-                pwdlen = int(input("please enter the lenght of the password needed:"))
+nbrofpwds = int(input("enter the no of password to be generated:"))
+pwdlen = int(input("please enter the lenght of the password needed:"))
 print("here are your random passwords:")
 for x in range (nbrofpwds):
     pwd=""
